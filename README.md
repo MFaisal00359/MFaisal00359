@@ -1,5 +1,6 @@
-<h1 align="center">Hi Folks👋, I'm Faisal</h1>
-<h3 align="center">Halo banh, saya Faisal dan ini profil kosong ku 🙂 salam kenal</h3>
+<h1 align="center">Hai 👋, I'm Faisal</h1>
+
+<h3 align="center">Hai banh, ini profil kosong ku 🙂 salam kenal</h3>
 
 <h3 align="center">...</h3>
 
