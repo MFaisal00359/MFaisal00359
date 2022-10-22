@@ -1,7 +1,5 @@
 <h1 align="center">Hai 👋, I'm Faisal</h1>
 
-<h3 align="center">Hai banh, ini profil kosong ku 🙂 salam kenal</h3>
-
 <h3 align="center">...</h3>
 
 <img align="center" alt="anya" width="1000" src="https://media.tenor.com/_irU8oUff_IAAAAC/anya-anya-forger.gif">
