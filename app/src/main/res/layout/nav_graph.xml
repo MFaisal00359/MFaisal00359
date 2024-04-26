@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress AndroidUnresolvableTag -->
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:startDestination="@id/fragmentA">
+
+    <fragment
+        android:id="@+id/fragmentA"
+        android:name="com.example.a121140139_muhammadfaisalsafira_latihan4.FragmentA"
+        android:label="@string/fragment_a"
+        tools:layout="@layout/fragment_a" >
+
+        <!-- Deep link untuk FragmentA -->
+        <deepLink
+            android:id="@+id/deep_link_fragmentA"
+            app:uri="example.com/fragmentA" />
+
+        <action
+            android:id="@+id/action_fragmentA_to_fragmentB"
+            app:destination="@id/fragmentB"
+            app:launchSingleTop="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragmentB"
+        android:name="com.example.a121140139_muhammadfaisalsafira_latihan4.FragmentB"
+        android:label="@string/fragment_b"
+        tools:layout="@layout/fragment_b" />
+
+</navigation>
